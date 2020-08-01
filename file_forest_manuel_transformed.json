@@ -1,0 +1,56 @@
+{
+	"id": "B116610B-3CEE-414B-A2CD-50F6853C5E20",
+	"internalName": "forest_light",
+	"title": "forest_light",
+	"type": "Develop",
+	"value": {
+		"settings": {
+			"Blacks2012": 48,
+			"Clarity2012": 30,
+			"ColorNoiseReduction": 25,
+			"ColorNoiseReductionDetail": 50,
+			"ColorNoiseReductionSmoothness": 50,
+			"Contrast2012": 49,
+			"ConvertToGrayscale": false,
+			"Dehaze": 15,
+			"EnableColorAdjustments": true,
+			"EnableDetail": true,
+			"EnableEffects": true,
+			"ToneCurveName2012": "Custom",
+			"ToneCurvePV2012": [
+				14,
+				25,
+				94,
+				110,
+				198,
+				185,
+				255,
+				255
+			],
+			"ToneCurvePV2012Blue": [
+				0,
+				0,
+				255,
+				255,
+			],
+			"ToneCurvePV2012Green": [
+				0,
+				0,
+				255,
+				255
+			],
+			"ToneCurvePV2012Red": [
+				0,
+				0,
+				255,
+				255
+			],
+			"Vibrance": 22,
+			"WhiteBalance": "Custom",
+			"Whites2012": 55,
+			"orientation": "AB"
+		},
+		"uuid": "74BBD78F-6C42-4A38-B01A-B95518A5C073",
+	},
+	"version": 0,
+}
