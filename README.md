@@ -1,4 +1,5 @@
 # LRJson
+
 Convert Lightroom Template file (.ltemplate) into manipulable JSON file
 
 ### Install

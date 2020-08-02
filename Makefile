@@ -28,7 +28,7 @@ fclean: clean
 	rm -rf ${MODULE}.egg-info
 
 build:
-	python3 setup.py sdist bdist_wheel --bdist-dir ~/temp/bdistwheel
+	python3.8 setup.py sdist bdist_wheel --bdist-dir ~/temp/bdistwheel
 
 deploy:
 	twine check dist/*
