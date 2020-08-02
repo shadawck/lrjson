@@ -95,7 +95,7 @@ $ lrson myfilter.lrtemplate -p
 ```
 
 ## API
-There is only one function.
+There is only one function.    
 Just import it and use it.
 
 ```python
