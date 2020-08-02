@@ -20,11 +20,12 @@ if __name__ == '__main__':
 
     arguments = docopt(__doc__, version='v0.0.1')
 
-    __file = arguments["<file>"]
-    __out = __file.split(".")[0]+".json"
+    __file   = arguments["<file>"]
+    __out    = __file.split(".")[0]+".json"
+    __print  = arguments["--print"] 
 
     cvj.convert(__file,__out)
-    not(__out) and print("\033[1;32;40mFile converted with Success")
+    not(__print) and print("\033[1;32;40mFile converted with Success")
 
     if arguments["--print"]:
         subprocess.run(args=["python3","-m","json.tool",__out])
