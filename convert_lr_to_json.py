@@ -39,8 +39,10 @@ fout.close()
 fout = open("forest.json","rt").read()
 mod1 = re.sub(r"({)\n\t+","[",fout)         
 mod2 = re.sub(r"[0-9]+,\n\t+(})","]",mod1)   
+#mod = re.finditer(r"{\n\t+([0-9]+,\n\t+)+}",fout)
+mod3 = re.sub(r"\,(?=\s*?[\}\]])","",mod2)
 
 fout = open("final.json","w")
-fout.write(mod2)
+fout.write(mod3)
 fout.close()
 
